@@ -1,13 +1,15 @@
 {
-  "name": "dnd",
-  "private": true,
+  "name": "pragmatic-dnd-multiselect",
+  "homepage": "https://nktnet1.github.io/pragmatic-dnd-multiselect",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "pnpm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@atlaskit/avatar": "^21.17.6",
@@ -31,6 +33,7 @@
     "eslint": "^9.17.0",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.16",
+    "gh-pages": "^6.3.0",
     "globals": "^15.14.0",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.19.0",
