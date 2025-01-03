@@ -1,4 +1,4 @@
-# Pragmatic Multi-Select DnD
+# Pragmatic DnD Multi-Select
 
 A multi-select standalone example for [pragmatic-drag-and-drop](https://github.com/atlassian/pragmatic-drag-and-drop).
 
@@ -11,28 +11,28 @@ You can find a demonstration of the project here:
 
 ## Running the code
 
-To run the serve in development mode,
+First, set up the repository with
 
-1. Install dependencies
-    ```sh
-    pnpm install
-    ```
+```sh
+git clone https://github.com/nktnet1/pragmatic-dnd-multiselect
+cd pragmatic-dnd-multiselect
+pnpm install    # or yarn/npm install
+```
 
-2. Run the server in development mode
-    ```sh
-    pnpm dev
-    ```
+To run the serve in development mode, use the command
+```sh
+pnpm dev
+```
 
-3. Open http://localhost:5173 in your browser.
+Then open http://localhost:5173 in your browser.
 
 <br />
 
-Alternatively, you can also build and preview with vite:
+Alternatively, you can build and preview with vite:
 
 ```
-pnpm install
 pnpm build
 pnpm preview
 ```
 
-And visit http://localhost:4173 in your browser.
+Visit the preview link at http://localhost:4173.
