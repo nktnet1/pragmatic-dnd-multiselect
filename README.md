@@ -38,3 +38,10 @@ pnpm preview
 ```
 
 Visit the preview link at http://localhost:4173.
+
+## Why?
+
+This repository was created to provide a more accessbile example at the request of
+
+- https://github.com/atlassian/pragmatic-drag-and-drop/discussions/99
+- https://github.com/atlassian/pragmatic-drag-and-drop/issues/26 (comments)
