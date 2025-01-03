@@ -1,9 +1,4 @@
-/**
- * @jsxRuntime classic
- * @jsx jsx
- */
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { css, Global, jsx } from '@emotion/react';
+import { css, Global } from '@emotion/react';
 
 const globalStyles = css({
 	':root': {
