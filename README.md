@@ -6,38 +6,38 @@ The code was extracted from [this example](https://github.com/atlassian/pragmati
 
 ![Showcase GIF](/docs/assets/showcase.gif)
 
-## Demo
+## Demonstration
 
-You can find a demonstration of the project here:
+You can play with a live deployed version of the project here:
 - https://nktnet1.github.io/pragmatic-dnd-multiselect
 
 ## Running the code
 
-First, set up the repository with
+Set up the repository with
 
 ```sh
 git clone https://github.com/nktnet1/pragmatic-dnd-multiselect
 cd pragmatic-dnd-multiselect
-pnpm install    # or yarn/npm install
+pnpm install    # or use yarn/npm
 ```
 
-To run the serve in development mode, use the command
+To run the code in development mode, use the command
 ```sh
 pnpm dev
 ```
 
-Then open http://localhost:5173 in your browser.
+You can then open http://localhost:5173 in your browser.
 
 <br />
 
-Alternatively, you can build and preview with vite:
+Alternatively, you can build and preview with vite, use the command
 
 ```
 pnpm build
 pnpm preview
 ```
 
-Visit the preview link at http://localhost:4173.
+You can now visit the preview link http://localhost:4173.
 
 ## Why?
 
