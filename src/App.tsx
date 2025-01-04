@@ -11,7 +11,7 @@ function App() {
 
       <MultiSelectDndExample />
 
-      <p  style={{ color: 'white', textAlign: 'center', marginTop: 25 }}>
+      <p style={{ color: 'white', textAlign: 'center', marginTop: 25 }}>
         GitHub: <a href={REPO_LINK} target="_blank" rel="noreferrer">{REPO_LINK}</a>
       </p>
     </div>
