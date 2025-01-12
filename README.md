@@ -30,7 +30,7 @@ You can then open http://localhost:5173 in your browser.
 
 <br />
 
-Alternatively, you can build and preview with vite, use the command
+Alternatively, to build and preview with vite, use the commands
 
 ```
 pnpm build
