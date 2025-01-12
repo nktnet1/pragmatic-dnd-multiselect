@@ -18,6 +18,9 @@ const boardStyles = xcss({
 const scrollContainerStyles = xcss({
   overflowY: 'auto',
   height: '600px',
+  overflowX: 'auto',
+  maxWidth: '100vw',
+  padding: 'space.100',
 });
 
 function Board({ children }: { children: ReactNode }) {
